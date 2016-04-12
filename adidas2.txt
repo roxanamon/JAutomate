@@ -1,0 +1,4 @@
+
+WaitMouseMove "{ImageFolder}/1460460344358.png" 50 46
+
+Click "{ImageFolder}/1460460128117.png" 16 73

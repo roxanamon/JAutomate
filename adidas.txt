@@ -1,0 +1,9 @@
+StartWeb "http://www.pricerunner.se"
+Wait
+
+Click "{ImageFolder}/14604595089623.png"
+Write "adidas stan smith leather white [ENTER]"
+
+
+
+

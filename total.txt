@@ -1,0 +1,16 @@
+// här anropar vi alla txt filer
+Call "/Applications/Testautomation/JAutomate/scripts/adidas.txt"
+Call "/Applications/Testautomation/JAutomate/scripts/adidas2.txt"
+
+// Clear the CSV file
+ClearLog "scripts/adidas.csv"
+
+//Log the parameter names
+Log "scripts/adidas.csv" , "total.txt har körts"
+
+Timestamp
+Set Date "{Timestamp}"
+//log the parameters
+Log "scripts/adidas.csv" , "total.txt har körts", {Date} "I have made a search and I got it..."
+Write [PAGE-DOWN]
+
